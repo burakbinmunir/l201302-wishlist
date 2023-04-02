@@ -1,0 +1,50 @@
+.wish  {
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    height:5vh;
+}
+
+.wish:hover{
+    border: 2px solid grey;
+}
+
+
+.doneDiv {
+    width: 10%;
+    justify-content: center;
+}
+
+.doneBtn {
+    color:white;
+    margin: 8%;
+}
+
+.doneBtn :hover {
+    color:green;
+}
+
+
+.text {
+    width: 80%;   
+    text-align: center; 
+    color:white;
+}
+
+p {
+    margin:0.5%;
+}
+
+.dltDiv {
+    justify-content: center;
+    width:10%;
+}
+
+.dltBtn {
+    margin: 3%;
+    color:white;
+}
+
+.dltBtn:hover {
+    color:red;
+}
