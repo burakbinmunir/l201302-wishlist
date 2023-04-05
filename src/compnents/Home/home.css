@@ -1,0 +1,8 @@
+ul {
+    color: black;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    height:5vh;
+}
+

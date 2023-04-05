@@ -1,6 +1,7 @@
 .avatar {
     height: 20vh;
     width: 20vh;
+    border-radius:50px;   
 }
 
 .userContainer {
@@ -8,20 +9,7 @@
     flex-direction: column;
     background-color: black; 
     margin: 2%;
-    height:10vh;
-    
-}
-
-.userContainer:hover > img {
-    animation: ex;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-play-state: running;
-}
-
-@keyframes ex {
-    from { height:0vh;}
-    to { height:35vh; width: 30vh;}
+    height:10vh;    
 }
 
 .gotoProfile  {
@@ -35,7 +23,7 @@
 .profileBtn {
     width: 15vh;
     height: 5vh;
-    border-radius: 25px;
+    
     color:white;
     background-color: black;
 }
