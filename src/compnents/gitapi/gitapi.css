@@ -1,0 +1,29 @@
+.profilesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    height: 50vh;
+    width: 100%;
+    overflow-x: auto;
+    margin-top:10%;
+    background-color: black;
+}
+
+.search {
+    margin-top:10%;
+    background-color:black;
+    width: 100%;
+}
+
+
+.searchBar {
+    height: 10vh;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.searchBtn {
+    height: 11vh;
+    margin-left:1%;
+    width: 7%;
+}

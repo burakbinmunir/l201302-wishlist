@@ -1,0 +1,41 @@
+.avatar {
+    height: 20vh;
+    width: 20vh;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: black; 
+    margin: 2%;
+    height:10vh;
+    
+}
+
+.userContainer:hover > img {
+    animation: ex;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+@keyframes ex {
+    from { height:0vh;}
+    to { height:35vh; width: 30vh;}
+}
+
+.gotoProfile  {
+    margin: 10%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.profileBtn {
+    width: 15vh;
+    height: 5vh;
+    border-radius: 25px;
+    color:white;
+    background-color: black;
+}
