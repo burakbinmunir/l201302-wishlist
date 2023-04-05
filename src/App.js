@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Gitapi from "./compnents/gitapi/gitapi";
+import WishList from './compnents/wish/wishlist'
 
 class App extends React.Component {
   constructor()
@@ -11,7 +12,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <Gitapi />  
+        <WishList/>
       </div>
     );
   }

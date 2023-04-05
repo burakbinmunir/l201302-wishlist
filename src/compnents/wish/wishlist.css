@@ -14,74 +14,82 @@
     top:50%;
     transform: translate(-50%,-50%);
     width: 50%;
-  }
+    margin-top:5%;
+    height:70vh;
+}
+
+
+.heading  {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(255, 255, 255, 0.51);
+  color:white;
+  text-align: center;
+  margin-left:25%;
+  margin-right: 25%;
+  margin-top:6%;
+  padding-top:1%;
+  padding-bottom:1%;
   
-  
-  .heading  {
-    background: rgba(255, 255, 255, 0.14);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(7.4px);
-    -webkit-backdrop-filter: blur(7.4px);
-    border: 1px solid rgba(255, 255, 255, 0.51);
-    color:white;
-    text-align: center;
-    margin-left:25%;
-    margin-right: 25%;
-    margin-top:6%;
-    padding-top:1%;
-    padding-bottom:1%;
-    
-  }
-  
-  .inptContainer {
-    height: 6vh;
-    margin: 5%;
-    display:flex;
-  }
-  
-  .taskText  {
-    width:87%;
-    height: 5vh;
-    padding-bottom: 1%;
-    text-align:center;
-    border: none;
-    background-color: black;
-    color:white;
-  }
-  
-  .taskText:hover{
-    background-color:white;
-    color:black;
-  }
-  
-  .addBtn {
-    width: 10%;
-    border-radius: 2px;
-    margin-left:2%;
-    background-color: black;
-    color:white;
-    padding:1.5%;
-  }
-  
-  .addBtn:hover {
-    color:black;
-    background-color:white;
-  }
-  
-  
-  
-  
-  .wishContainer {
-    overflow:auto;  
-    height: 30vh;
-  }
-  
-  .wish {
-    border: 1px solid green;
-    height: 5vh;
-    margin: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
+}
+
+.inptContainer {
+  height: 6vh;
+  margin: 5%;
+  display:flex;
+}
+
+.taskText  {
+  width:80%;
+  height: 5vh;
+  padding-bottom: 1%;
+  text-align:center;
+  border: none;
+  background-color: black;
+  color:white;
+}
+
+.taskText:hover{
+  background-color:white;
+  color:black;
+}
+
+select {
+  background-color: black;
+  color:white;
+  width: 10%;
+}
+
+
+.addBtn {
+  width: 10%;
+  border-radius: 2px;
+  margin-left:2%;
+  background-color: black;
+  color:white;
+  padding:1.5%;
+}
+
+.addBtn:hover {
+  color:black;
+  background-color:white;
+}
+
+
+
+
+.wishContainer {
+  overflow:auto;  
+  height: 50vh;
+}
+
+.wish {
+  border: 1px solid green;
+  height: 5vh;
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}

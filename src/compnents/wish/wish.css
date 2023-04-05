@@ -5,6 +5,10 @@
     height:5vh;
 }
 
+body {
+    background-color:black;
+}
+
 .wish:hover{
     border: 2px solid grey;
 }
@@ -24,10 +28,65 @@
     color:green;
 }
 
+.temp   {
+    display: flex;
+}
+
+.editBtn {
+    color:white;
+    margin-left: 20%;
+}
+
+.editBtn:hover {
+    color:black;
+}
+
+.moveUpBtn
+{
+    color: white;
+}
+
+
+.moveUpBtn:hover
+{
+    color: yellow;
+}
+
+.highPrior{
+    margin: 5%;
+    
+    min-height: 3vh;
+    min-width:5vh;
+    background-color:red;
+}
+
+.mediumPrior 
+{
+    margin: 5%;
+   
+    min-height: 3vh;
+    min-width:5vh;
+    background-color:yellow;
+}
+
+.lowPrior {
+    margin: 5%;
+   
+    min-height: 3vh;
+    min-width:5vh;
+    background-color:green;
+}
+
+.btns {
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .text {
-    width: 80%;   
-    text-align: center; 
+    display: flex;
+    width: 70%;   
+    text-align: left; 
     color:white;
 }
 
